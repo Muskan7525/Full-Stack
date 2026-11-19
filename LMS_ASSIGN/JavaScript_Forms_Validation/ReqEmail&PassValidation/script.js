@@ -17,3 +17,15 @@ function checkPassword() {
     console.log("Password must be at least 8 characters");
   }
 }
+
+const form = document.getElementById("registrationForm");
+form.addEventListener("submit", function (event) {
+  if (!form.checkValidity()) {
+    event.preventDefault();
+    console.log("Please enter valid email and password.");
+  } else {
+    event.preventDefault();
+    console.log("Registration Successful!");
+  }
+});
+
