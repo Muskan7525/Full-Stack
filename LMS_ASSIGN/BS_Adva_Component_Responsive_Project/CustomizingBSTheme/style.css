@@ -1,0 +1,30 @@
+:root {
+  --bs-primary: purple;
+  --bs-success: green;
+  --bs-warning: orange;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+}
+
+.btn-success {
+  --bs-btn-bg: var(--bs-success);
+  --bs-btn-border-color: var(--bs-success);
+}
+
+.btn-warning {
+  --bs-btn-bg: var(--bs-warning);
+  --bs-btn-border-color: var(--bs-warning);
+}
+
+.custom-btn {
+  border-radius: 25px;
+  padding: 12px 25px;
+  font-weight: bold;
+}
+
+.custom-card {
+  border-radius: 20px;
+}
